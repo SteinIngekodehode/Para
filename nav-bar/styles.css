@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+ul {
+    list-style-type: none;/*tar vekk dots/gjer det til ul*/
+}
+
+a {
+    text-decoration: none;/*"tar vekk understrek*/
+}
+
+.nav-horizontal {
+    max-width: 100%;
+    border: black 2px solid;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 25px 40px 25px 25px;  
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-evenly;*/
+    max-width: 450px;
+    font-size: 20px;
+    margin-left: 100px;
+    /*border: 2px solid red;*/ 
+           
+}
+
+.navitems {
+display: flex;
+color:black;
+padding: 25px 0px 25px 40px;
+/*border: solid 2px lightgreen;*/ 
+}
+
